@@ -35,3 +35,34 @@ margin: auto;
     color: black;
 }
 /* navigation part start  */
+/* car section start  */
+.main-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   padding: 40px;
+}
+.title{
+    text-align: center;
+    font-size: 4rem;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding:10px 30px 10px 30px ;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-top: 20px;
+    display: inline-block;
+}
+.button:hover{
+    background-color: rgb(100, 93, 93);
+    color: black;
+}
+.desk{
+    line-height: 25px;
+    text-align: left;
+    font-style: italic;
+}
+/* car section end  */
