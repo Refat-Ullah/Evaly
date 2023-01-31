@@ -3,9 +3,7 @@ body{
 font-family: 'Roboto', sans-serif;
 margin: auto;
 }
-.container{
-    margin: 1200px;
-}
+
 /* navigation part start  */
 .main-header{
     display: flex;
@@ -29,6 +27,7 @@ margin: auto;
     color: white;
     padding: 10px 30px 10px 30px;
     border-radius: 5px;
+    margin-right: 10px;
 }
 .btn a:hover{
     background-color: white;
@@ -66,3 +65,30 @@ margin: auto;
     font-style: italic;
 }
 /* car section end  */
+/* products part start */
+.audi{
+  margin-left: 70px;
+  color: red;
+  display: block;
+}
+.description{
+    margin-left: 30px;
+}
+.double-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap:20px;
+    grid-column-gap:10px ;
+    margin-left: 50px;
+}
+.motors{
+    text-align: center;
+    color: blue;
+    background-color: cadetblue;
+    padding: 20px;
+}
+.motors:hover{
+    background-color: white;
+    color: black;
+}
+/* products part end */
